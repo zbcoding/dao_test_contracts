@@ -1,0 +1,14 @@
+{
+  "name": "dao_test_contracts",
+  "version": "1.0.0",
+  "description": "Test contracts for a dao where members stake tokens in order to hold a nft representing membership.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "author": "zbcoding",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "5.1.0"
+  }
+}
