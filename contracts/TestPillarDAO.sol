@@ -11,7 +11,7 @@ contract TestPillarDAO is ITestPillarDAO, Ownable, ReentrancyGuard {
     using SafeERC20 for IERC20;
 
     address private immutable stakingToken;
-    uint256 private immutable stakingTerm = 52 weeks;
+    uint256 private immutable stakingTerm = 0.1 minutes;
     uint256 private immutable stakeAmount;
     TestMembershipNFT private membershipNFT;
 
@@ -106,6 +106,18 @@ contract TestPillarDAO is ITestPillarDAO, Ownable, ReentrancyGuard {
 
     function stakingAmount() external view returns (uint256) {
         return stakeAmount;
+    }
+
+    function stakingTime() external view returns (uint256) {
+        return stakingTerm;
+    }
+
+    function membershipNFTAddress() external view returns (address) {
+        return address(membershipNFT);
+    }
+
+    function stakingTokenAddress() external view returns (address) {
+        return address(stakingToken);
     }
 
     function setMembershipURI(string memory _baseURI) external onlyOwner {
