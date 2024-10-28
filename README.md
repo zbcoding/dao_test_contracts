@@ -1,4 +1,4 @@
-Test contracts for a dao where members stake tokens in order to hold a nft representing membership. Written by Pillar team, I've made edits to these contracts for compatibility and relaunched these replica test contracts on Polygon Amoy.
+Test contracts for a dao where members stake tokens in order to hold a nft representing membership. The dao and nft contracts where originally written by Pillar team <https://www.pillar.fi/>, I've made edits to these contracts for compatibility and relaunched these replica test contracts on Polygon Amoy.
 
 ```
 ---Polygon Amoy Test Contracts---
