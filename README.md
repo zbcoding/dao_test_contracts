@@ -3,7 +3,7 @@ Test contracts for a dao where members stake tokens in order to hold a nft repre
 ```
 ---Polygon Amoy Test Contracts---
 test dao contract: 0xf1a8685519D456f47a9F3505035F4Bad5d9a9ce0
-test tokens (airdrop): 0x3cb29AAC77693A0784380Fb664Ec443Ce1079882
+test tokens (airdrop available): 0x3cb29AAC77693A0784380Fb664Ec443Ce1079882
 required test stake amount: 10*10**18 = 10000000000000000000 (10 tokens)
 required test stake time: 0.1 min (6 seconds)
 test nft contract: 0x0901f5aBd34A9080Dded6dad72188aAbee8a976F
